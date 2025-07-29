@@ -74,10 +74,23 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-background/20 pt-8 text-center">
-          <p className="text-background/60">
-            © 2024 RIALMA S/A. Todos os direitos reservados. | 35 anos transformando o Brasil.
-          </p>
+        <div className="border-t border-background/20 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-background/60">
+              © 2024 RIALMA S/A. Todos os direitos reservados. | 35 anos transformando o Brasil.
+            </p>
+            <div className="flex space-x-6 text-sm">
+              <a href="/politica-privacidade" className="text-background/60 hover:text-primary transition-colors">
+                Política de Privacidade
+              </a>
+              <a href="/termos-uso" className="text-background/60 hover:text-primary transition-colors">
+                Termos de Uso
+              </a>
+              <a href="/relacao-investidores" className="text-background/60 hover:text-primary transition-colors">
+                Investidores
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
